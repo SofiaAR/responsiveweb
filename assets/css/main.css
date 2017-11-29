@@ -1,0 +1,93 @@
+body{
+	font-family:'Raleway', sans-serif; 
+}
+/*HEADER*/
+
+li{
+	float:left;
+	padding:5%;
+	font-size:20px;
+	list-style: none;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 10%;
+}
+.logo{
+	border-radius: 50%;
+	border-style: 2px solid white;
+}
+
+/*SECTION PORTADA*/
+.img-portada{
+	opacity: 0.9;
+	background-image:url(../img/facebook-album-459263864410678/products.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	padding: 17em;
+}
+h1{
+	font-size: 4.5em;
+	font-weight:400;
+	color: #F4F6F7;
+	display: inline-block;
+	text-align: center;
+	text-shadow: 1px 1px 2px black;
+
+}
+.p-portada{
+	color: #F4F6F7;
+	text-align: center;
+	font-weight:400;
+}
+.text-contain{
+	margin-top:-245px;
+
+	text-shadow: 1px 1px 2px black;
+}
+li:hover{
+	color:#27AE60;
+	 
+}
+li{
+	transition: color 0.3s linear 0.2s;
+}
+/*FIN SECTION PORTADA*/
+
+/*INICIO SECTION INFO*/
+.info{
+	padding: 5%;
+}
+/*FIN SECTION INFO*/
+
+/*INICIO SECTION CARDS*/
+.card-img{
+	width: 250px;
+	height: 150px;
+}
+.border{
+	border-style: 1px solid #7B7D7D;
+}
+button{
+	background-color: #27AE60;
+	color: #f2f2f2;
+ 	padding: 10px;
+ 	font-size: 18px;
+ 	border-radius: 5px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	transition: all 500ms ease;
+}
+button:hover {
+ background: rgba(0,0,0,0);
+ color: #27AE60;
+ box-shadow: inset 0 0 0 3px #27AE60;
+}
+/*FIN SECTION CARDS*/
+
+/*FOOTER*/
+footer{
+	background-color: #7B7D7D;
+	text-align: center;
+	color:white;
+	padding:10px;
+}
